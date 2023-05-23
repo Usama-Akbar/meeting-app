@@ -1,0 +1,102 @@
+.toolbar-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  width: 5vw !important;
+  height: 100vh;
+  margin: 20px 10px 0px 30px;
+  background-color: #f1f1f18c;
+}
+.tools-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  height: 100vh;
+  margin: 20px 0px;
+  background-color: #f1f1f18c;
+}
+.tool-tab-selected {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #00efd1;
+  width: fit-content;
+  text-align: center;
+}
+.tool-tab {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  width: fit-content;
+  text-align: center;
+}
+.tab-img {
+  width: 25px;
+}
+.icon {
+  background-color: #00efd1 !important;
+  color: #000 !important;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 10px 10px 40px;
+  background: url("../assets/write.png") no-repeat left;
+  background-size: 20px;
+  background-position: 10px;
+}
+.icon-submitted {
+  border: 1px solid rgb(184, 184, 184) !important;
+  color: #000 !important;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 10px 10px 40px;
+  background: url("../assets/write.png") no-repeat left;
+  background-size: 20px;
+  background-position: 10px;
+}
+.add-recipt-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #00efd1 !important;
+  color: #000 !important;
+  border: none !important;
+}
+.submit-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #00efd1 !important;
+  color: #000 !important;
+  border: none !important;
+}
+.form-div {
+  text-align: end;
+}
+.user-icon {
+  width: 20px;
+}
+.tool-bar-option {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #90e0fd7d;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tool-icon {
+  width: 25px;
+}
+
+.form-img {
+  width: 40vw;
+  height: 90vh;
+}

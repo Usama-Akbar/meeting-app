@@ -1,0 +1,73 @@
+.logo {
+  width: 50px;
+  height: 45px;
+}
+.header-content {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+.meeting-description {
+  font-size: 14px;
+  color: #7e7e7eec;
+}
+.meeting-heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+.header-main-div {
+  align-items: center;
+  padding: 10px 200px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 25px 15px -20px;
+}
+.meeting-link {
+  border: none !important;
+  color: #23d2ea !important;
+  background-color: #32f5e95e !important;
+}
+.leave-btn {
+  margin-left: 20px;
+}
+.link-icon {
+  width: 25px;
+}
+.attendees-container {
+  right: 155px;
+  position: relative;
+  display: flex;
+}
+
+.attendee-numbers {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: #32f5e95e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #23d2ea;
+  font-size: 16px;
+  margin-right: 10px;
+  z-index: 100;
+}
+
+.attendee {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: #c0c0c0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
